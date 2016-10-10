@@ -49,4 +49,33 @@ int main() {
     
     return 0;
 }
+
+#elif(prog == 3)
+
+int main() {
+    
+    // Declare memory storage we need
+    // We use double for floating point numbers to be stored for each of
+    // the memory locations named: sum, difference, product and quotient
+    // Initialize the memory locations to 0.0
+    
+    cout << "Aritmetic Operations\n";
+    
+    double sum = 0.0, difference = 0.0, product = 0.0, quotient = 0.0;
+    
+    sum = 30 + 4;
+    difference = 30 - 4;
+    product = 30 * 4;
+    quotient = 30 / 4;
+    
+    
+    cout << sum << endl;
+    cout << difference << endl;
+    cout << product << endl;
+    cout << quotient << endl;
+    
+    return 0;
+}
+
+
 #endif
