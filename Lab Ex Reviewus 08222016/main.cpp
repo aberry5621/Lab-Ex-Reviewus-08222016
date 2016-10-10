@@ -6,8 +6,14 @@
 //  Copyright © 2016 COMP130. All rights reserved.
 //
 
+// C-Proprocessor-Macro
+
+# define prog 2
+
 #include <iostream>
 using namespace std;
+
+#if(prog == 1)
 
 int main() {
     
@@ -16,3 +22,14 @@ int main() {
     
     return 0;
 }
+
+#elif(prog == 2)
+
+int main() {
+    
+    // Goodbye World
+    cout << "Goodbye, World!\n";
+    
+    return 0;
+}
+#endif
